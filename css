@@ -1,0 +1,103 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #e0f2fe, #fef9c3);
+    color: #1f2937;
+    padding: 30px;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px #93c5fd;
+  }
+  
+  /* Input Section */
+  input {
+    padding: 10px;
+    border: 1px solid #9ca3af;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+  }
+  
+  /* Records Box */
+  .records {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .records p {
+    background-color: #eff6ff;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .records p:nth-child(even) {
+    background-color: #f1f5f9;
+  }
+  
+  /* Delete Button */
+  .records button {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  
+  .records button:hover {
+    background-color: #b91c1c;
+  }
+  
+  /* Missed Tasks Section */
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h2 button {
+    background-color: #f59e0b;
+    color: white;
+  }
+  
+  h2 button:hover {
+    background-color: #d97706;
+  }
+  
