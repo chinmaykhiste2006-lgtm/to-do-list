@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>to do list</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+<h1>To Do List</h1>
+<center>
+<input id="entry" placeholder="Enter your routein here" style="margin-right: 10px;" required>
+<input id = "date" type="date" placeholder="2025-01-02" style="margin-right: 10px;" required>
+<input id = "time" type="time" placeholder="10:50" style="margin-right: 10px;" required>
+
+<button onclick="add()" style="margin-right: 10px;">add</button><br><br>
+<div class = "records">
+
+    Your records<br>
+
+</div>
+<h2>
+    <button onclick="showmissedtask()">show missed tasks</button>
+</h2>
+<script src="todolist.js"></script>
+</center>
+    </body>
+</html>
